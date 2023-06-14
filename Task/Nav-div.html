@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul {
+        background: lightblue;
+        text-align: left;
+        word-spacing: 20px;
+      }
+      li {
+        display: inline;
+        position: relative;
+      }
+      a {
+        text-decoration: none;
+      }
+      .t {
+        display: inline;
+        height: 3px;
+        width: 0;
+        background: red;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transition: 1s;
+      }
+      li:hover .t {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <div class="t"></div>
+        <a href="">Home</a>
+      </li>
+      <li>
+        <div class="t"></div>
+        <a href="">About</a>
+      </li>
+      <li>
+        <div class="t"></div>
+        <a href="">Contact</a>
+      </li>
+      <li>
+        <div class="t"></div>
+        <a href="">Help</a>
+      </li>
+      <li>
+        <div class="t"></div>
+        <a href="">Service</a>
+      </li>
+    </ul>
+  </body>
+</html>

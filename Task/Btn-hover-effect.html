@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .d {
+        height: 40px;
+        width: 100px;
+        background: linear-gradient(red, blue);
+        margin: 150px auto;
+        border-radius: 30px;
+        text-align: center;
+        line-height: 40px;
+        color: white;
+        font-size: 20px;
+        text-shadow: 3px 0 3px black;
+        position: relative;
+        overflow: hidden;
+      }
+      .d::after {
+        content: "";
+        height: 100px;
+        width: 10px;
+        background: rgba(265, 265, 265, 0.7);
+        transform: rotate(-35deg);
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        transition: 0.5s;
+      }
+      .d:hover::after {
+        left: 120px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="d">
+      Bharat
+      <!-- <div class="e"></div> -->
+    </div>
+  </body>
+</html>

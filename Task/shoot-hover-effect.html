@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .d {
+        height: 200px;
+        width: 400px;
+        background: url(https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bot_2.jpg);
+        background-size: 100% 100%;
+        margin: 50px auto;
+        color: white;
+        position: relative;
+        font-size: 20px;
+        word-spacing: 2px;
+        letter-spacing: 4px;
+        overflow: hidden;
+      }
+      .s {
+        position: absolute;
+        left: 150px;
+        top: 100px;
+      }
+      .d::after {
+        content: "";
+        height: 200px;
+        width: 400px;
+        background: rgb(0, 0, 0, 0.3);
+        position: absolute;
+        left: -400px;
+        top: -200px;
+        transition: 0.7s;
+      }
+      .d:hover::after {
+        left: 0;
+        top: 0;
+      }
+      .d::before {
+        content: "";
+        height: 200px;
+        width: 400px;
+        background: rgb(0, 0, 0, 0.3);
+        position: absolute;
+        left: 400px;
+        top: 200px;
+        transition: 0.7s;
+      }
+      .d:hover::before {
+        left: 0;
+        top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="d">
+      <span class="s">Flat <b style="color: skyblue">50%</b> Offer</span>
+      <!-- <div class="d1"></div> -->
+      <!-- <div class="d2"></div> -->
+    </div>
+  </body>
+</html>
