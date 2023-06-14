@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background: black;
+      }
+      .main {
+        height: 450px;
+        width: 700px;
+        background: black;
+        margin: 120px auto;
+        position: relative;
+      }
+      .circle1 {
+        height: 200px;
+        width: 200px;
+        background: linear-gradient(pink, purple);
+        transform: rotate(200deg);
+        /* border-top: 10px solid; */
+        border-radius: 50%;
+        position: absolute;
+        left: 390px;
+        top: 20px;
+      }
+      .circle2 {
+        height: 80px;
+        width: 80px;
+        background: linear-gradient(pink, red);
+        transform: rotate(180deg);
+        /* border-top: 10px solid; */
+        border-radius: 50%;
+        position: absolute;
+        left: 200px;
+        top: 60px;
+      }
+      .circle3 {
+        height: 120px;
+        width: 120px;
+        background: red;
+        /* border-top: 10px solid; */
+        border-radius: 50%;
+        position: absolute;
+        left: 130px;
+        top: 180px;
+      }
+      .frame {
+        height: 180px;
+        width: 300px;
+        background: rgba(265, 265, 265, 0.2);
+        transform: translate(60%, 50%);
+        border-radius: 20px;
+      }
+      .member {
+        color: transparent;
+        background: rgba(265, 265, 265, 0.6);
+        /* background-clip: text; */
+        -webkit-background-clip: text;
+        position: absolute;
+        left: 10px;
+        top: 20px;
+        letter-spacing: 4px;
+        font-size: 12px;
+      }
+      .member1 {
+        color: transparent;
+        background: rgba(265, 265, 265, 0.6);
+        /* background-clip: text; */
+        -webkit-background-clip: text;
+        position: absolute;
+        left: 10px;
+        top: 110px;
+        letter-spacing: 4px;
+      }
+      .member2 {
+        color: transparent;
+        background: rgba(265, 265, 265, 0.6);
+        /* background-clip: text; */
+        -webkit-background-clip: text;
+        position: absolute;
+        left: 10px;
+        top: 140px;
+        letter-spacing: 4px;
+        font-size: 10px;
+      }
+      .mainspan {
+        color: gray;
+        font-size: 20px;
+        position: absolute;
+        left: 230px;
+        top: 300px;
+      }
+      .mainspan2 {
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        left: 160px;
+        top: 330px;
+      }
+      .mainspan3 {
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        left: 240px;
+        top: 370px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <span class="mainspan">6 SIMPLE STEPS TO</span>
+      <span class="mainspan2"><b>CREATE GLASSMORPHIC</b></span>
+      <span class="mainspan3"><b>CARD EFFECT</b></span>
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+      <div class="circle3"></div>
+      <div class="frame">
+        <span class="member">MEMBERSHIP</span>
+        <span class="member1">JAMES APPLESEED</span>
+        <span class="member2">UXMISFIT.TOOLS</span>
+      </div>
+    </div>
+  </body>
+</html>
