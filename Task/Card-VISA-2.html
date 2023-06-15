@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background: black;
+      }
+      .main {
+        height: 500px;
+        width: 800px;
+        margin: 80px auto;
+        background: linear-gradient(-45deg, #d62744, blue, #d62744);
+        border-radius: 20px;
+        position: relative;
+        overflow: hidden;
+        z-index: -10;
+      }
+      .circleM {
+        height: 450px;
+        width: 450px;
+        background: linear-gradient(20deg, #d62744 50%, blue);
+        outline: 5px;
+        outline: 5px solid #d62744;
+        outline-offset: 30px;
+        border-radius: 50%;
+        position: absolute;
+        left: 500px;
+        top: 150px;
+        position: relative;
+      }
+      .border {
+        height: 100px;
+        width: 100px;
+        /* background: red; */
+        position: absolute;
+        left: -50px;
+        top: 80px;
+        transform: rotate(45deg);
+        border-radius: 50%;
+        border: 20px solid;
+        border-image: linear-gradient(red, blue);
+        border-image-slice: 20;
+      }
+      .circle1 {
+        height: 100px;
+        width: 100px;
+        background: linear-gradient(45deg, #d62744 40%, blue);
+        border-radius: 50%;
+        position: absolute;
+        left: -70px;
+        top: 230px;
+        z-index: -9;
+        filter: blur(2px);
+      }
+      .main1 {
+        height: 150px;
+        width: 250px;
+        position: absolute;
+        left: 400px;
+        top: 250px;
+        transform: rotate(-20deg);
+      }
+      .card1 {
+        height: inherit;
+        width: inherit;
+        border-radius: 15px;
+        background: rgba(265, 265, 265, 0.2);
+        backdrop-filter: blur(4px);
+      }
+      .a,
+      .b,
+      .c,
+      .d,
+      .e,
+      .f,
+      .p,
+      .q,
+      .r,
+      .s,
+      .t,
+      .u {
+        position: absolute;
+        color: white;
+      }
+      .a {
+        left: 18px;
+        top: 70px;
+      }
+      .b {
+        left: 10px;
+        top: 110px;
+        font-size: 10px;
+        color: transparent;
+        background: rgba(253, 249, 249, 0.6);
+        -webkit-background-clip: text;
+      }
+      .c {
+        left: 10px;
+        top: 125px;
+        font-size: 12px;
+      }
+      .d {
+        left: 170px;
+        top: 20px;
+        font-size: 20px;
+        font-family: cursive;
+      }
+      .e {
+        left: 190px;
+        top: 110px;
+        font-size: 10px;
+        color: transparent;
+        background: rgba(253, 249, 249, 0.7);
+        -webkit-background-clip: text;
+      }
+      .f {
+        left: 190px;
+        top: 125px;
+      }
+      .main2 {
+        height: 180px;
+        width: 280px;
+        position: absolute;
+        left: 400px;
+        top: 80px;
+        transform: rotate(10deg);
+        z-index: 1;
+      }
+      .card2 {
+        height: inherit;
+        width: inherit;
+        background: rgba(265, 265, 265, 0.2);
+        backdrop-filter: blur(4px);
+        border-radius: 10px;
+      }
+      .circle2 {
+        height: 50px;
+        width: 50px;
+        background: linear-gradient(45deg, purple 50%, blue);
+        border-radius: 50%;
+        position: absolute;
+        top: 150px;
+        left: 250px;
+      }
+      .circle3 {
+        height: 30px;
+        width: 30px;
+        background: linear-gradient(#d62744, yellow);
+        border-radius: 50%;
+        position: absolute;
+        top: -15px;
+        left: 30px;
+      }
+      .p {
+        left: 20px;
+        top: 80px;
+        font-size: 20px;
+      }
+      .q {
+        left: 10px;
+        top: 135px;
+        font-size: 10px;
+        color: transparent;
+        background: rgba(253, 249, 249, 0.6);
+        -webkit-background-clip: text;
+      }
+      .r {
+        left: 10px;
+        top: 150px;
+        font-size: 15px;
+      }
+      .s {
+        left: 170px;
+        top: 20px;
+        font-size: 25px;
+        font-family: cursive;
+      }
+      .t {
+        left: 220px;
+        top: 130px;
+        font-size: 13px;
+        color: transparent;
+        background: rgba(253, 249, 249, 0.7);
+        -webkit-background-clip: text;
+      }
+      .u {
+        left: 220px;
+        top: 150px;
+      }
+      ul {
+        text-align: right;
+        word-spacing: 20px;
+        margin-right: 60px;
+      }
+      li {
+        display: inline;
+        padding: 5px 10px 5px 10px;
+      }
+      a,.cashify,.money,.pay,.para,.btn,.app,.learn{
+        color: white;
+      }
+      a {
+        text-decoration: none;
+      }
+      .sign {
+        border: 2px solid white;
+        border-radius: 30px;
+      }
+      .cashify {
+        position: absolute;
+        top: 40px;
+        left: 50px;
+      }
+      .money {
+        color: rgb(25, 237, 25);
+        position: absolute;
+        top: 120px;
+        left: 90px;
+        font-size: 10px;
+      }
+      .pay {
+        font-size: 50px;
+        position: absolute;
+        left: 80px;
+        top: 125px;
+      }
+      .para {
+        position: absolute;
+        left: 80px;
+        top: 300px;
+        font-size: 10px;
+        line-height: 15px;
+      }
+      .btn {
+        background-color: blue;
+        position: absolute;
+        left: 80px;
+        top: 380px;
+        border-radius: 30px;
+        padding: 10px 15px;
+      }
+      .app{
+        position: absolute;
+        left: 200px;
+        top: 390px;
+        font-size: 12px;
+      }
+      .learn{
+        position: absolute;
+        left: 80px;
+        top: 450px;
+        font-size: 10px;
+      }
+      .minicircle1{
+        height: 30px;
+        width: 30px;
+        background: linear-gradient(lightblue,blue);
+        border-radius: 50%;
+        position: absolute;
+        left: 330px;
+        top: 400px;
+      }
+      .minicircle2,.minicircle3{
+        height: 15px;
+        width: 15px;
+        background: linear-gradient(coral,purple 50%);
+        filter: brightness(300%);
+        border-radius: 50%;
+        position: absolute;
+        left: 370px;
+        top: 120px;
+      }
+      .minicircle3{
+        left: 380px;
+        top: 350px;
+        background: linear-gradient(red,purple);
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="main">
+        <div class="minicircle1"></div>
+        <div class="minicircle2"></div>
+        <div class="minicircle3"></div>
+      <ul>
+        <li><a href="">About</a></li>
+        <li><a href="">Product</a></li>
+        <li><a href="">pricing</a></li>
+        <li class="sign"><a href="">Signin</a></li>
+      </ul>
+      <span class="cashify">cashify</span>
+      <span class="money">START SAVING YOUR MONEY</span>
+      <span class="pay"
+        >Payments <br />Have never <br />
+        been easier</span
+      >
+      <span class="para"
+        >Lorem ipsum dolor sit amet, consectetur Lorem ipsum <br />Aliquam
+        excepturi tempora quo, quis, ea omnis dolore <br />Lorem ipsum dolor sit
+        amet, consectetur
+      </span>
+      <button class="btn">Get Started</button>
+      <span class="app">Download App</span>
+      <span class="learn">Learn more about digital banking <a href="" style="color: red; text-decoration: underline;">here</a>
+      </span>
+      <div class="circleM">
+        <div class="circle1"></div>
+      </div>
+      <div class="border"></div>
+      <div class="main1">
+        <div class="card1">
+          <span class="a">1234 3562 2652 2452</span>
+          <span class="b">CARD HOLDER</span>
+          <span class="c">Bharat DG</span>
+          <span class="d">VISA</span>
+          <span class="e">EXPIRIS</span>
+          <span class="f">09/24</span>
+        </div>
+      </div>
+      <div class="main2">
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="card2">
+          <span class="p">1234 3562 2652 2452</span>
+          <span class="q">CARD HOLDER</span>
+          <span class="r">Bharat DG</span>
+          <span class="s">VISA</span>
+          <span class="t">EXPIRIS</span>
+          <span class="u">09/24</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
