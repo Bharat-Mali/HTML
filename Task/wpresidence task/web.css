@@ -16,6 +16,22 @@
 .main .header {
   display: grid;
   grid-template-columns: 3fr 4fr 4fr;
+  position: relative;
+}
+.main .header2{
+  width: 100%;
+  background: #001a33;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.main .header2 .icon i{
+  color: white;
+  margin: 30px 20px;
+}
+.main .header2 .icon img{
+  margin-left: 40%;
 }
 /* subheader start */
 .main .header .subheader {
@@ -72,7 +88,6 @@
   position: relative;
 }
 .main .navbar .nav .navlink .homelink {
-  /* height: 300px; */
   width: 250px;
   background: white;
   border-radius: 5px;
@@ -157,7 +172,6 @@
 /* property section start */
 .mainprop {
   height: 200px;
-  /* border: 2px solid; */
   position: relative;
 }
 .mainprop .prop {

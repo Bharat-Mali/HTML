@@ -1,0 +1,29 @@
+@media (max-width: 700px) {
+  .main .header {
+    display: none;
+  }
+  .main .navbar {
+    display: none;
+  }
+  .main .header2 {
+    display: inline;
+    display: grid;
+    grid-template-columns: 5fr 90fr 5fr;
+  }
+  .main .textarea .ptext1,
+  .ptext2 {
+    font-size: 40px;
+  }
+  .main .textarea .ptext2 {
+    font-size: 17px;
+    margin-top: 20px;
+  }
+  .mainprop .prop .propsubmenu {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .mainprop .prop .propmenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
