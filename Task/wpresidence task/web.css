@@ -1,0 +1,235 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 600px;
+  background: url(citymain.jpg);
+  background-size: 100% 100%;
+}
+.main .shadow {
+  height: 600px;
+  background: linear-gradient(rgba(55, 55, 117, 0.6), rgba(0, 0, 0, 0.9));
+  position: absolute;
+}
+.main .header {
+  display: grid;
+  grid-template-columns: 3fr 4fr 4fr;
+}
+/* subheader start */
+.main .header .subheader {
+  height: 40px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  display: grid;
+  grid-template-columns: 2fr repeat(8, 1fr);
+}
+.main .header .subheader .icon {
+  border-right: 1px solid gray;
+}
+.main .header .subheader .icon i {
+  margin: 10px;
+  color: white;
+  transition: 1s;
+}
+.main .header .subheader .icon i:hover {
+  color: blue;
+}
+.main .header .sociali {
+  display: grid;
+  grid-template-columns: 2fr 3fr 3fr 1fr;
+}
+.main .header .sociali .social {
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  color: white;
+}
+.main .header .sociali .social i {
+  margin: 10px 5px 0 0;
+  padding-left: 5px;
+  color: white;
+}
+/* subheader start */
+/* navbar start */
+
+.main .navbar {
+  display: grid;
+  grid-template-columns: 20fr 55fr 25fr;
+}
+.main .navbar .nav {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  color: white;
+}
+.main .navbar .nav img {
+  margin: 10px 0 0 20px;
+  max-height: 54px;
+  max-width: 160px;
+}
+.main .navbar .nav .navlink {
+  padding-top: 30px;
+  position: relative;
+}
+.main .navbar .nav .navlink .homelink {
+  /* height: 300px; */
+  width: 250px;
+  background: white;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  top: 65px;
+  opacity: 0;
+}
+.main .navbar .nav .navlink:hover .homelink {
+  opacity: 1;
+}
+.main .navbar .nav .navlink .homelink .homesublink {
+  color: black;
+  text-align: center;
+  line-height: 40px;
+  margin: 3px 0px;
+  transition: 0.3s;
+}
+.main .navbar .nav .navlink .homelink .homesublink:hover {
+  background: #0073eb;
+  color: white;
+  padding-left: 20px;
+}
+.main .navbar .contact {
+  display: grid;
+  grid-template-columns: 2.5fr 0.5fr 2fr;
+}
+.main .navbar .contact .navcont {
+  font-weight: bold;
+  font-size: 18px;
+}
+.main .navbar .contact .navcont i {
+  margin-right: 5px;
+  padding: 30px 0 0 10px;
+}
+.main .navbar .contact .navcont button {
+  height: 35px;
+  width: 100px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: #0073eb;
+  color: white;
+}
+.main .navbar .contact .navcont button .effect {
+  height: 35px;
+  width: 100px;
+  background: black;
+  position: absolute;
+  left: -100px;
+  top: 0;
+  transition: 0.3s;
+  z-index: -1;
+}
+.main .navbar .contact .navcont button:hover .effect {
+  left: 0;
+}
+/* navbar end */
+
+/* textarea  start*/
+.main .textarea {
+  width: 60%;
+  margin: 150px auto;
+  font-family: roboto, Sans-serif;
+}
+.main .textarea .ptext1,
+.ptext2 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+.main .textarea .ptext2 {
+  font-size: 19px;
+  margin-top: 20px;
+}
+/* textarea  end*/
+
+/* property section start */
+.mainprop {
+  height: 200px;
+  /* border: 2px solid; */
+  position: relative;
+}
+.mainprop .prop {
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  top: -50%;
+  display: grid;
+}
+.mainprop .prop .propmenu {
+  display: grid;
+  grid-template-columns: 2.5fr 0.7fr 0.7fr 0.7fr 2.5fr;
+}
+.mainprop .prop .propmenu .x {
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  background: #0073eb;
+  margin-right: 2px;
+  border-radius: 3px;
+  font-size: 17px;
+}
+.mainprop .prop .propmenu .x:hover {
+  background: white;
+  color: black;
+}
+.mainprop .prop .propsubmenu {
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background: white;
+  box-shadow: 0 0 10px gray;
+}
+.mainprop .prop .propsubmenu .propsubmenulist p {
+  margin: 10px 0 0 15px;
+}
+.mainprop .prop .propsubmenu .propsubmenulist select,
+input,
+.button1 {
+  height: 35%;
+  width: 90%;
+  margin: 5px 0 40px 15px;
+  font-size: 17px;
+  color: gray;
+  border-radius: 4px;
+  outline: none;
+  padding: 10px;
+}
+.mainprop .prop .propsubmenu .propsubmenulist .button1 {
+  margin-top: 33px;
+  background: #0073eb;
+  color: white;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+  outline: 1px solid #0073eb;
+}
+.mainprop .prop .propsubmenu .propsubmenulist .button1:hover {
+  color: #0073eb;
+}
+.mainprop .prop .propsubmenu .propsubmenulist .button1 .effect2 {
+  height: 60px;
+  width: 100%;
+  background: white;
+  position: absolute;
+  left: -100%;
+  top: -20%;
+  transition: 0.5s;
+  z-index: -3;
+}
+.mainprop .prop .propsubmenu .propsubmenulist .button1:hover .effect2 {
+  left: 0%;
+}
+/* property section end */
