@@ -29,10 +29,12 @@
 .i-img3,
 .i-img4 {
   width: 100%;
+  margin: 0 20px;
 }
 .main-service .item .shape .service-text {
-  font-size: 15px;
-  margin-left: 13px;
+  font-size: 25px;
+  left: -30px;
+  top: 55px;
 }
   .main-star .star-text {
     width: 100%;
