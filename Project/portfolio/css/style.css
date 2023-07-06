@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header start */
+.main-header {
+  background: url(../image/bgimg1.webp);
+  background-size: 100% 100%;
+}
+.main-header .navbar .nav-ul {
+  text-align: right;
+  padding: 20px;
+  word-spacing: 60px;
+  letter-spacing: 2px;
+}
+.main-header .navbar .nav-ul li {
+  display: inline;
+}
+.main-header .navbar .nav-ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+}
+.main-header .navbar .nav-ul li a:hover {
+  background: rgba(255, 165, 0, 0.6);
+}
+.main-header .navbar2 {
+  height: 100px;
+  background: url(../image/dark-bg.jpg);
+  display: none;
+}
+.main-header .navbar2 .p1 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-weight: 600;
+}
+.main-header .head-img {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-header .head-img .my-img {
+  width: 200px;
+  border: 2px solid white;
+  margin: 150px 20px;
+  padding: 100px;
+  border-radius: 100px;
+  background: url(../image/dg.jpg);
+  background-size: cover;
+  outline: 2px dotted white;
+  outline-offset: 5px;
+}
+.main-header .head-img .head-text {
+  height: 600px;
+  width: 50%;
+}
+.main-header .head-img .head-text2 .text1,
+.text2 {
+  font-size: 50px;
+  color: white;
+  margin: 250px 0 0 20px;
+}
+.main-header .head-img .head-text2 .text2 {
+  margin: 0 0 0 100px;
+}
+.main-header .head-img .head-text .effect {
+  width: 40px;
+  padding: 20px;
+  background: url(../image/tyre.jpg);
+  background-size: 100% 100%;
+  border-radius: 50%;
+  margin-left: 230px;
+  animation: tyre 1s linear infinite;
+}
+/* header end */
+
+/* About start */
+.main-about {
+  padding: 50px;
+}
+.main-about .about-head .p2,
+.p6,
+.p7,
+.p9,
+.p10 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  margin: 60px 15px;
+  color: rgb(30, 30, 43);
+}
+.main-about .about-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.main-about .about-info .info-part {
+  padding: 30px;
+}
+.main-about .about-info .info-part .p3 {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(24, 24, 108);
+}
+.main-about .about-info .info-part .p4 {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 15px;
+}
+.main-about .about-info .info-part2 {
+  display: flex;
+  flex-wrap: wrap;
+  background: url(../image/dark-blur-26943-1920x1080.jpg);
+}
+.main-about .about-info .info-part2 .presional-info {
+  height: 50px;
+  width: 48%;
+  display: grid;
+  grid-template-columns: 40fr 60fr;
+  margin: 2px;
+}
+.main-about .about-info .info-part2 .presional-info .info-list h3 {
+  margin: 10px;
+  color: white;
+  text-align: right;
+}
+.main-about .about-info .info-part2 .presional-info .info-list .p5 {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: gray;
+}
+/* About end */
+/* skill start */
+.main-skill .skill-part2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-skill .skill-part2 .skill-list {
+  width: 23%;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 40fr 60fr;
+  background: rgb(250, 250, 250);
+}
+.main-skill .skill-part2 .skill-list .skill-item {
+  height: 150px;
+}
+.main-skill .skill-part2 .skill-list .skill-item img {
+  padding: 10px 0;
+  margin: 5px;
+}
+.main-skill .skill-part2 .skill-list .skill-item2 h2 {
+  margin: 50px 0 0 10px;
+  color: rgb(34, 85, 86);
+}
+.main-skill .skill-part2 .skill-list .skill-item2:hover h2 {
+  color: rgb(255, 0, 0);
+}
+/* skill end  */
+/* Resume start */
+.main-resume {
+  padding: 0 60px;
+}
+.main-resume .resu-middle {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.main-resume .resu-middle .middle-part {
+  display: grid;
+  grid-template-rows: 80px 320px;
+}
+.main-resume .resu-middle .middle-part .middle-list1 {
+  background: url(../image/dark-bg.jpg);
+  background-size: cover;
+  margin: 4px;
+  outline: 2px solid;
+  outline-offset: 2px;
+}
+.main-resume .resu-middle .middle-part .middle-list h1 {
+  text-align: center;
+  margin: 15px;
+  color: white;
+}
+.main-resume .resu-middle .middle-part .middle-list h1:hover {
+  color: darkgray;
+}
+.main-resume .resu-middle .middle-part .middle-list .p8 {
+  margin: 8px;
+  font-size: 18px;
+  font-family: cursive;
+  line-height: 45px;
+}
+.main-resume .resu-middle .middle-part .middle-list .p8:hover {
+  color: cadetblue;
+}
+
+/* Resume end */
+/* project start */
+.main-project {
+  padding: 0 100px;
+}
+.main-project .project-head {
+  background: url(../image/dark-bg.jpg);
+  background-size: cover;
+  padding-bottom: 2px;
+}
+.main-project .project-head .p9 {
+  margin: 20px;
+  color: azure;
+}
+.main-project .project-middle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: ghostwhite;
+}
+.main-project .project-middle .project-item {
+  width: 35%;
+  margin: 30px 80px;
+}
+.main-project .project-middle .project-item .project-list2 {
+  border: 1px dotted;
+}
+.main-project .project-middle .project-item .project-list2 h1 {
+  margin: 10px;
+  text-align: center;
+  color: rgb(80, 75, 75);
+}
+.main-project .project-middle .project-item .project-list2 h1:hover {
+  color: chocolate;
+}
+/* project end */
+
+/* Contact start */
+.main-contact {
+  margin: 0 60px;
+}
+.main-contact .contact-part2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-contact .contact-part2 .contact-item1 {
+  width: 30%;
+}
+.main-contact .contact-part2 .contact-item1 {
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+  padding: 15px 0;
+}
+.main-contact .contact-part2 .contact-item1 .contact-list {
+  margin: 20px 0;
+  background: rgb(238, 235, 235);
+}
+.main-contact .contact-part2 .contact-item1 .contact-list i {
+  font-size: 25px;
+  margin: 20px;
+  color: blue;
+}
+.main-contact .contact-part2 .contact-item1 .contact-list .p11 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.main-contact .contact-part2 .contact-item1 .contact-list .p11 span {
+  font-weight: 600;
+  font-size: 25px;
+}
+.main-contact .contact-part2 .contact-item2 {
+  width: 70%;
+  padding: 10px;
+}
+.main-contact .contact-part2 .contact-item2 .p12 {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: 600;
+}
+.main-contact .contact-part2 .contact-item2 input {
+  width: 60%;
+  font-size: 16px;
+  padding: 5px;
+}
+.main-contact .contact-part2 .contact-item2 textarea {
+  padding: 30px;
+  width: 60%;
+}
+.main-contact .contact-part2 .contact-item2 button {
+  margin: 20px 0 0 150px;
+  padding: 10px 30px;
+  background: skyblue;
+  border: none;
+}
+.main-contact .contact-part2 .contact-item2 button:hover {
+  background: none;
+  border: 2px solid skyblue;
+}
+/* Contact end */
+
+/* Drop image start */
+.main-drop {
+  padding: 250px;
+  background: url(../image/foot.webp);
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* Drop image end */
+/* Footer start */
+.main-footer {
+  height: 300px;
+  background: url(../image/dark-bg.jpg);
+  background-size: 100% 100%;
+  padding: 80px 20px;
+}
+.main-footer .subinfo button {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 0.3s;
+  margin-left: 10px;
+  border: none;
+}
+.main-footer .subinfo button .fronticon,
+.backicon {
+  height: 40px;
+  width: 40px;
+  background: red;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: rotateX(0deg) translateZ(20px);
+  backface-visibility: hidden;
+}
+.main-footer .subinfo button .backicon {
+  background: white;
+  transform: rotateX(90deg) translateZ(20px);
+}
+.main-footer .subinfo button:hover {
+  transform: rotateX(-90deg) translateZ(0px);
+}
+.main-footer .subinfo button .fronticon,
+.backicon i {
+  font-size: 20px;
+  padding-top: 10px;
+}
+.main-footer .subinfo button .face {
+  background: #3b5998;
+  color: white;
+}
+.main-footer .subinfo button .twi {
+  background: #00acee;
+  color: white;
+}
+.main-footer .subinfo button .insta {
+  background: #f77737;
+  color: white;
+}
+.main-footer .subinfo button .linked {
+  background: #bd081c;
+  color: white;
+}
+.main-footer .foot-copy {
+  height: 100px;
+  width: 100%;
+  border: 2px solid white;
+}
+.main-footer .p14 {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: white;
+  margin: 130px 400px;
+}
+/* Footer end */
+
+@keyframes tyre {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

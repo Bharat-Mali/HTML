@@ -1,0 +1,51 @@
+@media(Max-Width:500px)
+{
+    .main-header .head-img .head-text {
+        width: 100%;
+    }
+    .main-header{
+        background-size: cover;
+    }
+    .main-header .navbar .nav-ul {
+        display: none;
+    }
+    .main-header .navbar2{
+        display: block;
+    }
+    .main-about .about-info{
+        grid-template-columns: 1fr;
+    }
+    .main-about .about-info .info-part2 .presional-info{
+        width: 100%;
+    }
+    .main-skill .skill-part2 .skill-list{
+        width: 100%;
+    }
+    .main-resume .resu-middle{
+        grid-template-columns: 1fr;
+    }
+    .main-project{
+        padding: 0;
+    }
+    .main-project .project-middle .project-item{
+        width: 100%;
+    }
+    .main-contact .contact-part2 .contact-item1{
+        width: 100%;
+    }
+    .main-contact .contact-part2 .contact-item2{
+        width: 100%;
+    }
+    .main-contact .contact-part2 .contact-item2 button{
+        margin: 10px 0;
+    }
+    .main-contact .contact-part2 .contact-item2 input{
+        width: 100%;
+    }
+    .main-contact .contact-part2 .contact-item2 textarea{
+        width: 100%;
+    }
+    .main-footer .p14 {
+        margin: 100px 0 0 0;
+    }
+}

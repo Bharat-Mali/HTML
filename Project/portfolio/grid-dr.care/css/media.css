@@ -1,0 +1,94 @@
+@media(Max-Width:500px){
+    .main-header .topbar1{
+        display: none;
+    }
+    .main-header .topbar2{
+        display: block;
+    }
+    .main-header .navbar1,.navbar2{
+        display: none;
+    }
+    .main-header .navbar2{
+        display: block;
+    }
+    .main-header .navbar2 .link .button2{
+        transform: translate(60%,-120%);
+    }
+    .main-header .head-img .head-text .heading,.heading2{
+        font-size: 35px;
+        text-align: center;
+    }
+    .main-header .head-img .head-text .heading3{
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+    .main-service{
+        grid-template-columns:1fr;
+    }
+    .main-service .servi-list .item .circle1{
+        margin: 20px 0 0 150px;
+    }
+    .main-about{
+        grid-template-columns: 1fr;
+    }
+    .main-about .about-text .about-tools{
+        grid-template-columns: 1fr;
+    }
+    .main-health{
+        grid-template-columns: 1fr;
+    }
+    .main-dpm{
+        margin: 0px;
+    }
+    .main-dpm .dpm-nav{
+        grid-template-columns: 1fr;
+        margin: 10px 20px;
+    }
+    .main-dpm .dpm-service .main-about2{
+        grid-template-columns: 1fr;
+    }
+    .main-dpm .dpm-text .dpm-text2,.dct-text2{
+        margin: 0;
+    }
+    .dr-degree{
+        grid-template-columns: 1fr;
+    }
+    .main-test{
+        margin: 0px;
+    }
+    .main-test .test-part{
+        margin: 0px;
+        grid-template-columns: 3fr 7fr;
+    }
+    .main-test .test-part .test-item i{
+        display: none;
+    }
+    .main-test .test-text .test-text2{
+        margin: 0px;
+    }
+    .main-appoit{
+        grid-template-columns: 1fr;
+    }
+    .main-appoit .appoit-part .appoit-item2{
+        grid-template-columns: 1fr;
+    }
+    .main-appoit .appoit-part2{
+        grid-template-columns: 1fr;
+    }
+    .main-price .price-text .price-text2{
+        margin: 0;
+    }
+    .main-price .price-item{
+        grid-template-columns: 1fr;
+    }
+    .main-blog .blog-text .blog-text2{
+        margin: 0;
+    }
+    .blog-info{
+        grid-template-columns: 1fr;
+    }
+    .main-footer{
+        grid-template-columns: 1fr;
+    }
+}
