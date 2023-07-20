@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    4
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    num1: <input type="text" id="inp1" /><br /><br />
+    num2: <input type="text" id="inp2" /><br /><br />
+    opration: <input type="text" id="inp3"><br><br>
+    <button id="btn" onclick="t()">submit</button>
+    <h1 id="res">0</h1>
+
+    <script>
+      function t() {
+        input1 = document.getElementById("inp1");
+        input2 = document.getElementById("inp2");
+        input3 = document.getElementById("inp3");
+        submit = document.getElementById("btn");
+        result = document.getElementById("res");
+
+        switch (input3.value) {
+          case '+':
+            result.innerHTML =Number(input1.value) + Number(input2.value);
+            break;
+          case '-':
+            result.innerHTML = input1.value - input2.value;
+            break;
+          case '*':
+              result.innerHTML = input1.value * input2.value;
+            break;
+         case '/':
+              result.innerHTML = input1.value / input2.value;
+            break;
+        }
+      }
+    </script>
+  </body>
+</html>
