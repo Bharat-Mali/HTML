@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  background: url(../image/gg1.webp);
+  background-size: cover;
+  color: white;
+}
+.header .toolbar {
+  width: 20%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.header .toolbar .box {
+  height: 150px;
+  width: 80%;
+  border: 1px solid;
+  margin: 25px 25px 100px 25px;
+  position: relative;
+}
+.header .toolbar .box .box2 {
+  height: 150px;
+  width: 100%;
+  border: 1px solid;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.header .toolbar .box .box2 .p1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header .toolbar .tool-ul {
+  line-height: 40px;
+}
+.header .toolbar .tool-ul li {
+  text-align: right;
+  margin-right: 100px;
+}
+.header .toolbar .tool-ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header .icons {
+  height: 50px;
+  width: 80%;
+  margin: 25px;
+}
+.header .icons i {
+  background: white;
+  color: black;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 8px;
+}
+.header .p2 {
+  text-align: center;
+  margin: 10px;
+}
+
+.header .main-img {
+  width: 80%;
+}
+.header .main-img .main-text {
+  width: 40%;
+  border: 1px solid;
+  margin: 200px 0 0 550px;
+  background: rgba(265, 265, 265, 0.5);
+}
+.header .main-img .main-text .p3,.p5,.p7,.p8 {
+  margin: 20px;
+  font-size: 25px;
+  color: rgb(4, 69, 69);
+}
+.header .main-img .main-text .p4,.p6,.p9 {
+  color: black;
+  margin: 20px;
+  line-height: 23px;
+}
+
+
+/* about start */
+
+.main-about{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-about .tools{
+    width: 20%;
+    background: rgb(21, 21, 21);
+}
+.main-about .texts{
+    width: 80%;
+}
+.main-about .texts .about-us{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-about .texts .about-us .compony1{
+    width: 50%;
+    padding: 20px;
+}
+.main-about .texts .about-us .compony1 i{
+    font-size: 100px;
+    color: blue;
+}
+.main-about .texts .about-us .compony2{
+    width: 50%;
+    padding: 20px;
+}
+.main-about .texts .about-us .compony2 i{
+    font-size: 100px;
+    color: blue;
+}
+/* about end */
+
+/* work start */
+.main-about .texts .main-work .boxs1{
+    border: 2px solid;
+    margin: 25px;
+}
+.main-about .texts .main-work .boxs1 .boxs2{
+    border: 2px solid;
+    width: 100%;
+    margin: 10px 0 0 10px;
+    display: flex;
+    flex-wrap:wrap ;
+}
+.main-about .texts .main-work .boxs1 .boxs2 .img1,.img2,.img3,.img4{
+    height: 300px;
+    width: 22%; 
+    margin:40px 10px;  
+}
+
+/* work end */
+
+/* client start */
+
+
+.main-about .texts .main-client .text{
+    padding: 20px;
+    line-height: 30px;
+}
+.main-about .texts .main-client .logo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-about .texts .main-client .logo .logo1,.logo2,.logo3,.logo4,.logo5,.logo6,.logo7,.logo8{
+    border: 2px solid;
+    width: 22%;
+    margin: 10px;
+}
+/* client end */
+
+/* talk start */
+.main-about .texts .main-talk{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-about .texts .main-talk .talk-part1{
+    width: 50%;
+}
+.main-about .texts .main-talk .talk-part1 .box1{
+    border: 2px solid;
+    margin: 20px;
+}
+.main-about .texts .main-talk .talk-part1 .box1 .box2{
+    border: 2px solid;
+    margin: 10px 0 0 10px;
+}
+.main-about .texts .main-talk .talk-part2{
+    width: 50%;
+}
+.main-about .texts .main-talk .talk-part2 .p10{
+    margin:5px 20px;
+}
+.main-about .texts .main-talk .talk-part2 input{
+    margin: 20px;
+    width: 80%;
+    height: 50px;
+    padding: 20px;
+}
+.main-about .texts .main-talk .talk-part2 button{
+    padding: 10px;
+    margin: 20px;
+}
+/* talk end */

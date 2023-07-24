@@ -1,0 +1,30 @@
+@media(max-width:500px){
+    .header .toolbar{
+        width: 100%;
+    }
+    .header .main-img{
+        width: 100%;
+    }
+    .header .main-img .main-text{
+        margin: 40px;
+        width: 80%;
+    }
+    .main-about .texts .about-us .compony1{
+        width: 100%;
+    }
+    .main-about .texts .about-us .compony2{
+        width: 100%;
+    }
+    .main-about .texts .main-work .boxs1 .boxs2 .img1,.img2,.img3,.img4{
+        width: 100%;
+    }
+    .main-about .texts .main-client .logo .logo1,.logo2,.logo3,.logo4,.logo5,.logo6,.logo7,.logo8{
+        width: 100%;
+    }
+    .main-about .texts .main-talk .talk-part1{
+        width: 100%;
+    }
+    .main-about .texts .main-talk .talk-part2{
+        width: 100%;
+    }
+}
