@@ -1,0 +1,64 @@
+@media (max-width: 500px) {
+  .foodie .shape .navbar li a {
+    font-size: 20px;
+  }
+  .foodie .shape .order .ord-text {
+    font-size: 100px;
+  }
+  .foodie .shape .order .ord-text2 {
+    font-size: 22px;
+  }
+  .popular .pop-text2 {
+    margin: 20px;
+  }
+  .popular .item .items {
+    width: 100%;
+  }
+  .statstic .shape2 .shape-text2 {
+    padding: 20px;
+  }
+  .statstic .shape2 .circle .cir {
+    width: 70%;
+  }
+  .menu .menu-text2{
+    padding: 20px;
+  }
+  .menu .menu-item{
+    margin: 5px;
+    padding: 0px;
+  }
+  .menu .menu-item .menu-items{
+    width: 100%;
+  }
+  .pasta {
+    grid-template-columns: 1fr;
+  }
+  .pasta .part2{
+    padding: 20px;
+  }
+  .pasta .part2 .part-text1{
+    font-size: 70px;
+  }
+  .pakage .pak-menu .pak-items{
+    width: 100%;
+  }
+  .pakage .pak-text2 {
+    padding: 20px;
+  }
+  .main-chef .chef-bg .chef-text1{
+    margin: 5px;
+    font-size: 30px;
+  }
+  .suscribe .sus-text2 {
+    padding: 10px;
+  }
+  .suscribe input,.sus-btn{
+    width: 300px;
+  }
+  .about{
+    grid-template-columns: 1fr;
+  }
+  .about .about-part{
+    margin: 40px;
+  }
+}
