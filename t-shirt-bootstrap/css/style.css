@@ -1,0 +1,18 @@
+      .navbar,
+      .container-fluid {
+        background: #f9f9f9 !important;
+      }
+      .btn,
+      .design,.design1,.design3,.design4,.design5 {
+        background: #a8d741 !important;
+      }
+      .container-fluid .design2 .icon i {
+        color: #a8d741;
+      }
+      .dg:hover {
+        transform: scale(1.1) rotate(10deg);
+        transition: 1s;
+        background: white !important;
+        color: black;
+        box-shadow: 0px 5px 15px gray;
+      }
