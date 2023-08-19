@@ -1,28 +1,67 @@
-      .navbar,
-      .container-fluid {
-        background: #f9f9f9 !important;
-      }
-      .btn,
-      .design,.design1,.design3,.design4,.design5 {
-        background: #a8d741 !important;
-      }
-      .container-fluid .design2 .icon i {
-        color: #a8d741;
-      }
-      .dg:hover {
-        transform: scale(1.1) rotate(10deg);
-        transition: 1s;
-        background: white !important;
-        color: black;
-        box-shadow: 0px 5px 15px gray;
-      }
-      .btn:hover {
-        transform: scale(1.1) rotate(10deg);
-        transition: .5s;
-        background: white !important;
-        color: black;
-        box-shadow: 0px 5px 15px gray;
-      }
-      .contact1,.contact2{
-        background: gainsboro;
-      }
+.navbar,
+.container-fluid {
+  background: #f9f9f9 !important;
+}
+.btn,
+.design,
+.design1,
+.design3,
+.design4,
+.design5 {
+  background: #a8d741 !important;
+}
+/* tool start*/
+.tool-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tool-main .tool-part {
+  height: 450px;
+  width: 31%;
+  margin: 10px;
+}
+.tool-main .tool-part .tool-img{
+  height: 300px;
+}
+/* tool end */
+/* team start */
+.tool2-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tool2-main .tool2-part {
+  height: 600px;
+  width: 31%;
+  margin: 10px;
+}
+.tool2-main .tool2-part .tool2-img{
+  height: 300px;
+  object-fit: cover;
+}
+/* team end */
+.container-fluid .design2 .icon i {
+  color: #a8d741;
+}
+.dg:hover {
+  transform: scale(1.1) rotate(10deg);
+  transition: 1s;
+  background: white !important;
+  color: black;
+  box-shadow: 0px 5px 15px gray;
+}
+.btn:hover {
+  transform: scale(1.1) rotate(10deg);
+  transition: 0.5s;
+  background: white !important;
+  color: black;
+  box-shadow: 0px 5px 15px gray;
+}
+.contact1,
+.contact2 {
+  background: gainsboro;
+}
+
+
+
+
+
