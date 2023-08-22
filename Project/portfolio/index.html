@@ -11,7 +11,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-  <body>
+  <body onscroll="myscroll()">
     <!-- header start-->
     <div class="main-header">
       <div class="navbar2">
@@ -43,7 +43,7 @@
       <div class="about-head">
         <p class="p2">About</p>
       </div>
-      <div class="about-info">
+      <div class="about-info" id="myinfo">
         <div class="info-part">
           <p class="p3">Front-end Developer</p>
           <p class="p4">
@@ -55,7 +55,7 @@
             for my career growth and betterment of organization too. 
           </p>
         </div>
-        <div class="info-part info-part2">
+        <div class="info-part info-part2" id="mydetail">
           <div class="presional-info">
             <div class="info-list">
               <h3>Birthday :</h3>
@@ -368,5 +368,30 @@
       <p class="p14">Copyright ©2023 Desinged by Bharat</p>
     </div>
     <!-- Footer section end -->
+
+    <!-- <style>
+      .h{
+        position: relative;
+        position: a;
+      }
+    </style> -->
+
+    <script>
+
+      info = document.getElementById('myinfo');
+      detail = document.getElementById('mydetail');
+
+      function myscroll(){
+        if(document.documentElement.scrollTop > 650){
+          info.style.color = "purple";
+          detail.style.background="url(../image/dark-bg.jpg)";
+        }
+        else{
+          info.style.color = "black";
+          detail.style.background="url(../image/dark-blur-26943-1920x1080.jpg)";
+        }
+      }
+
+    </script>
   </body>
 </html>

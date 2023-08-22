@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 /* header start */
 .main-header {
   background: url(../image/bgimg1.webp);
@@ -52,6 +55,7 @@
   background-size: cover;
   outline: 2px dotted white;
   outline-offset: 5px;
+  animation: topimage 2s linear 1;
 }
 .main-header .head-img .head-text {
   height: 600px;
@@ -62,6 +66,7 @@
   font-size: 50px;
   color: white;
   margin: 250px 0 0 20px;
+  animation: texts 3s linear 1 ;
 }
 .main-header .head-img .head-text2 .text2 {
   margin: 0 0 0 100px;
@@ -382,3 +387,49 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes texts {
+  0% {
+    transform: translate(-80%,0%);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0%,0%);
+  }
+}
+@keyframes topimage {
+  0% {
+    transform: scale(0) rotate(0deg);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+    opacity: 1;
+  }
+}
+
+
+/* @keyframes topimage {
+  0% {
+   border-radius: 40% 80% 20% 40%;
+  }
+  20%{
+    border-radius: 30% 60% 30% 80%;
+  }
+  40%{
+    border-radius: 50% 30% 40% 10%;
+  }
+  60%{
+    border-radius: 80% 20% 80% 60%;
+  }
+  80%{
+    border-radius: 20% 40% 60% 80%;
+  }
+  100% {
+    border-radius: 30% 80% 60% 40%;
+  }
+} */
+
+
+

@@ -2,6 +2,10 @@
 .container-fluid {
   background: #f9f9f9 !important;
 }
+.design-text{
+  font-size: 80px;
+}
+
 .btn,
 .design,
 .design1,
@@ -42,16 +46,16 @@
 .container-fluid .design2 .icon i {
   color: #a8d741;
 }
-.dg:hover {
-  transform: scale(1.1) rotate(10deg);
-  transition: 1s;
+.effect:hover {
+  transform: scale(1.03) rotate(-2deg);
+  transition: 0.5s;
   background: white !important;
   color: black;
   box-shadow: 0px 5px 15px gray;
 }
 .btn:hover {
-  transform: scale(1.1) rotate(10deg);
-  transition: 0.5s;
+  transform: scale(1.03) rotate(5deg);
+  transition: 0.2s;
   background: white !important;
   color: black;
   box-shadow: 0px 5px 15px gray;
